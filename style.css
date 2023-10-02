@@ -1,0 +1,46 @@
+/* External Style Sheet, style.css*/
+h1{
+    color:rgb(236, 241, 240);
+    -webkit-text-stroke: 2px black;
+
+}
+
+#info{
+    line-height: 1.5em; /* 1.5 * 100*/
+}
+a{
+    text-decoration: none;
+    color: brown;
+    
+}
+a:hover{
+    color: rgb(202, 130, 22);
+}
+
+body{
+    background-color: rgb(249, 222, 244);
+    padding-left: 110px;
+    padding-right: 20px;
+}
+h2{
+    color: rgb(18, 12, 12);
+    border-bottom: 1px solid;
+    margin-top: 1.5em;
+}
+.sidebar{
+
+    position: fixed;
+    top: 0; /*height from the top left*/
+    left: 0;
+    background-color: aquamarine;
+    
+    width: 100px;
+    height: 100%;
+
+    font-size: 1.2em;
+    line-height: 1.5em;
+
+    padding-top: 10px;
+    padding-left: 10px;
+}
+    
